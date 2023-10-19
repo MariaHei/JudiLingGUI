@@ -2,7 +2,7 @@
 
 Maintainer: Maria Heitmeier
 
-This directory contains a graphical user interface for [JudiLing](https://github.com/MegamindHenry/JudiLing.jl).
+This directory contains a graphical user interface for [JudiLing](https://github.com/MegamindHenry/JudiLing.jl) and [JudiLingMeasures](https://github.com/MariaHei/JudiLingMeasures.jl).
 JudiLing is a computational implementation of Linear Discriminative Learning (Baayen et al., 2018, Baayen et al., 2019, Heitmeier et al., 2021).
 
 The latin dataset in `dat/latin.csv` was first introduced in Baayen et al., 2018.
@@ -19,6 +19,7 @@ julia> up()
 ```
 
 then go to http://localhost:8000/
+(Note that it takes a bit of time when being loaded for the first time after compilation, hang in there.)
 
 ## References
 
